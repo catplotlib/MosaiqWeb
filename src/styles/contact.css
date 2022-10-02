@@ -1,0 +1,28 @@
+@media screen and (min-width: 600px) {
+    .mobile-break {
+      display: none;
+    }
+    .hero {
+      background: url("../assets/bg.png") no-repeat center center;
+      background-size: cover;
+      background-position-y: -2rem;
+    }
+    .touch {
+      background: url("../assets/touch.png") no-repeat center center;
+      background-size: cover;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .laptop-break {
+      display: none;
+    }
+    .hero {
+      background: url("../assets/bg.png") no-repeat center center;
+      background-position-y: -2rem;
+    }
+    .touch {
+      background: url("../assets/touch.png") no-repeat center center;
+      background-size: cover;
+    }
+  }
+  
