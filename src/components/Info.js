@@ -11,11 +11,12 @@ function Info() {
       {/* first */}
       <Flex
         flexDirection={{ base: "column", md: "row" }}
-        ml={{ md: "24" }}
+        ml={{ md: "16" }}
+        mr={{ md: "36" }}
         mb={{ md: "36" }}
         justifyContent="center"
       >
-        <Flex flexDirection="column" width={{ md: "70%" }}>
+        <Flex flexDirection="column" width={{ md: "60%" }}>
           <Image src={ms} className="mobile-break" mb="16" mt="16"></Image>
           <Text
             fontFamily="inter"
@@ -28,8 +29,9 @@ function Info() {
           </Text>
           <Text
             fontFamily="inter"
-            width={{ md: "55%" }}
+            width={{ md: "60%" }}
             mt="6"
+            textAlign="justify"
             color="rgba(255,255,255, 0.75)"
           >
             Use the browser extension to create a project/topic and add any page
@@ -56,7 +58,7 @@ function Info() {
             mt="16"
             w={{ base: "100%", md: "50%" }}
           ></Image>
-          <Flex ml={{ md: "20%", base: "0%" }} direction="column">
+          <Flex ml={{ md: "30%", base: "0%" }} direction="column">
             <Text
               fontFamily="inter"
               fontSize="4xl"
@@ -82,7 +84,6 @@ function Info() {
       {/*third */}
       <Flex
         flexDirection={{ base: "column", md: "row" }}
-        ml={{ md: "24" }}
         mb={{ md: "36" }}
         justifyContent="center"
       >
