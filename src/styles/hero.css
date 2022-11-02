@@ -20,7 +20,7 @@
   .body3 {
     background: url("../assets/bg3.svg") no-repeat center center;
     background-size: cover;
-    background-position-y: -10rem;
+    /* background-position-y: -10rem; */
   }
 
   /* .touch {

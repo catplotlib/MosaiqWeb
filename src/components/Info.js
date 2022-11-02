@@ -1,7 +1,7 @@
 import React from "react";
 import { Text, Flex, Image } from "@chakra-ui/react";
 import ms from "../assets/ms.svg";
-import viewer from "../assets/Viewer.svg";
+import viewer from "../assets/Viewer.png";
 import Project from "../assets/Project.svg";
 import "../styles/hero.css";
 import toggle from "../assets/Toggle.svg";
@@ -49,15 +49,9 @@ function Info() {
         mb={{ md: "36" }}
         justifyContent="center"
       >
-        <Image src={viewer} mt="-16" className="laptop-break"></Image>
+        <Image src={viewer} mt="-16" className="laptop-break" height="22rem"></Image>
         <Flex flexDirection="column">
-          <Image
-            src={viewer}
-            className="mobile-break"
-            mb="16"
-            mt="16"
-            w={{ base: "100%", md: "50%" }}
-          ></Image>
+          <Image src={viewer} className="mobile-break" mb="16" mt="16" />
           <Flex ml={{ md: "30%", base: "0%" }} direction="column">
             <Text
               fontFamily="inter"
