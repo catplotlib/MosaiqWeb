@@ -9,8 +9,18 @@ import instagram from "../assets/instagram.svg";
 import "../styles/hero.css";
 function Contact() {
   return (
-    <div className="touch">
-      <Flex mt="6" height={{ md: "100vh", base: "82vh" }}>
+    <div
+      className="touch"
+      style={{
+        position: "relative",
+        zIndex: "1",
+      }}
+    >
+      <Flex
+        mt="6"
+        justifyContent="center"
+        height={{ md: "100vh", base: "82vh" }}
+      >
         <Flex
           mt={{ base: "24", md: "12" }}
           flexDirection="column"
@@ -32,7 +42,12 @@ function Contact() {
             alignItems="center"
             gap="1"
           >
-            <Text w={{ md: "60%" }} p="4" textAlign="center" color="grey">
+            <Text
+              w={{ md: "45%" }}
+              p="4"
+              textAlign="center"
+              color="rgba(255,255,255,0.75)"
+            >
               We are on a mission to apply best in class NLP technology to make
               the life of knowledge workers easier, more productive and
               stimulating. If you feel like that is interesting for you - in any

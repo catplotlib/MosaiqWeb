@@ -4,6 +4,7 @@ import ms from "../assets/ms.svg";
 import viewer from "../assets/Viewer.svg";
 import Project from "../assets/Project.svg";
 import "../styles/hero.css";
+import toggle from "../assets/Toggle.svg";
 function Info() {
   return (
     <>
@@ -12,23 +13,24 @@ function Info() {
         flexDirection={{ base: "column", md: "row" }}
         ml={{ md: "24" }}
         mb={{ md: "36" }}
+        justifyContent="center"
       >
-        <Flex flexDirection="column" width={{ md: "50%" }}>
+        <Flex flexDirection="column" width={{ md: "70%" }}>
           <Image src={ms} className="mobile-break" mb="16" mt="16"></Image>
           <Text
             fontFamily="inter"
             fontSize="4xl"
             lineHeight="1.2"
-            fontWeight="700"
+            fontWeight="900"
             w={{ base: "80%", md: "50%" }}
           >
             EFFORTLESSLY ACCUMULATE INFORMATION
           </Text>
           <Text
             fontFamily="inter"
-            width={{ md: "70%" }}
+            width={{ md: "55%" }}
             mt="6"
-            textAlign="justify"
+            color="rgba(255,255,255, 0.75)"
           >
             Use the browser extension to create a project/topic and add any page
             or tab in a few clicks. Forget copy pasting links in random
@@ -43,31 +45,38 @@ function Info() {
         flexDirection={{ base: "column", md: "row" }}
         ml={{ md: "24" }}
         mb={{ md: "36" }}
-        justifyContent="space-between"
+        justifyContent="center"
       >
         <Image src={viewer} mt="-16" className="laptop-break"></Image>
-
-        <Flex flexDirection="column" width={{ md: "50%" }}>
-          <Image src={viewer} className="mobile-break" mb="16" mt="16"></Image>
-          <Text
-            fontFamily="inter"
-            fontSize="4xl"
-            lineHeight="1.2"
-            fontWeight="700"
-            w={{ base: "80%", md: "50%" }}
-          >
-            GET TO THE RIGHT DATA FASTER
-          </Text>
-          <Text
-            fontFamily="inter"
-            width={{ md: "70%" }}
-            mt="6"
-            textAlign="justify"
-          >
-            Access specific categories of information instantly, without reading
-            all documents. Want to see tables, figures, opinions, numbers,
-            citations... just press a button, the AI does it for you.
-          </Text>
+        <Flex flexDirection="column">
+          <Image
+            src={viewer}
+            className="mobile-break"
+            mb="16"
+            mt="16"
+            w={{ base: "100%", md: "50%" }}
+          ></Image>
+          <Flex ml={{ md: "20%", base: "0%" }} direction="column">
+            <Text
+              fontFamily="inter"
+              fontSize="4xl"
+              lineHeight="1.2"
+              w={{ base: "100%", md: "50%" }}
+              fontWeight="900"
+            >
+              GET TO THE RIGHT DATA. FASTER.
+            </Text>
+            <Text
+              fontFamily="inter"
+              width={{ md: "70%" }}
+              mt="6"
+              color="rgba(255,255,255, 0.75)"
+            >
+              Access specific categories of information instantly, without
+              reading all documents. Want to see tables, figures, opinions,
+              numbers, citations... just press a button, the AI does it for you.
+            </Text>
+          </Flex>
         </Flex>
       </Flex>
       {/*third */}
@@ -75,6 +84,7 @@ function Info() {
         flexDirection={{ base: "column", md: "row" }}
         ml={{ md: "24" }}
         mb={{ md: "36" }}
+        justifyContent="center"
       >
         <Flex flexDirection="column" width={{ md: "50%" }}>
           <Image src={Project} className="mobile-break" mb="16" mt="16"></Image>
@@ -82,8 +92,8 @@ function Info() {
             fontFamily="inter"
             fontSize="4xl"
             lineHeight="1.2"
-            fontWeight="700"
-            w={{ base: "80%", md: "50%" }}
+            w={{ base: "100%", md: "50%" }}
+            fontWeight="900"
           >
             MANAGE & COLLABORATE
           </Text>
@@ -92,11 +102,23 @@ function Info() {
             width={{ md: "70%" }}
             mt="6"
             textAlign="justify"
+            color="rgba(255,255,255, 0.75)"
           >
-            Accumulate all files and information sources by topic or project.
-            Easily share and collaborate. Imagine a cross-platform folder made
-            interactive and visual
+            A central hub to accumulate any online resource - documents, drive,
+            web articles, pdfs - related to a topic/project. Easily share and
+            collaborate. A visual gateway to all relevant information in one
+            place.
           </Text>
+          <Flex direction="column" gap="3" mt="3">
+            <Flex>
+              <Image w="9%" src={toggle} height="30px"></Image>
+              <Text>PDF</Text>
+            </Flex>
+            <Flex>
+              <Image w="9%" src={toggle} height="30px"></Image>
+              <Text>Tabs</Text>
+            </Flex>
+          </Flex>
         </Flex>
         <Image src={Project} mt="-16" className="laptop-break"></Image>
       </Flex>

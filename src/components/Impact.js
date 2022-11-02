@@ -3,18 +3,18 @@ import { Text, Flex, Image, Box } from "@chakra-ui/react";
 function Impact() {
   return (
     <Flex
-      height={{ md: "160vh", base: "280vh" }}
-      ml={{ base: "4", md: "24" }}
-      mr={{ base: "4", md: "24" }}
-      mt="20"
+      height={{ md: "170vh", base: "280vh" }}
+      ml={{ base: "4", md: "44" }}
+      mr={{ base: "4", md: "44" }}
       gap="12"
       direction="column"
     >
       <Text
         fontFamily="Inter"
-        fontSize="4xl"
-        fontWeight="800"
-        w={{ md: "50%" }}
+        fontSize={{ md: "5xl", base: "4xl" }}
+        mt="40"
+        fontWeight="900"
+        w={{ md: "70%" }}
         lineHeight="1.2"
       >
         THE IMPACT OF
@@ -26,11 +26,12 @@ function Impact() {
         <Box flexDirection="column" w={{ md: "20%" }}>
           <Text
             fontSize="3xl"
-            fontWeight="800"
+            fontWeight="900"
             bg="white"
             color="black"
             w={{ base: "32%", md: "49%" }}
             mb="4"
+            mt={{ base: "24", md: "0" }}
           >
             $900B
           </Text>
@@ -43,7 +44,7 @@ function Impact() {
         <Box flexDirection="column" w={{ md: "20%" }}>
           <Text
             fontSize="3xl"
-            fontWeight="800"
+            fontWeight="900"
             bg="white"
             color="black"
             w={{ base: "50%", md: "83%" }}
@@ -61,7 +62,7 @@ function Impact() {
         <Box flexDirection="column" w={{ md: "20%" }}>
           <Text
             fontSize="3xl"
-            fontWeight="800"
+            fontWeight="900"
             bg="white"
             color="black"
             w={{ base: "23%", md: "38%" }}
@@ -78,7 +79,7 @@ function Impact() {
         <Box flexDirection="column" w={{ md: "20%" }}>
           <Text
             fontSize="3xl"
-            fontWeight="800"
+            fontWeight="900"
             bg="white"
             color="black"
             w={{ base: "17%", md: "28%" }}
@@ -94,7 +95,7 @@ function Impact() {
         <Box flexDirection="column" w={{ md: "16%" }}>
           <Text
             fontSize="3xl"
-            fontWeight="800"
+            fontWeight="900"
             bg="white"
             color="black"
             w={{ base: "28%", md: "55%" }}
@@ -107,15 +108,15 @@ function Impact() {
           </Text>
         </Box>
       </Flex>
-      <Flex flexDirection="column" mt="24" w={{ md: "60%" }} gap="8">
+      <Flex flexDirection="column" mt={{md:"24",base:'8'}} w={{ md: "60%" }} gap="8">
         <Text
           fontFamily="Inter"
           fontSize={{ base: "2xl", md: "3xl" }}
           fontWeight="700"
           lineHeight="1.2"
         >
-          THE FUTURE OF THE WORLDS PRODUCTIVITY REQUIRES AI FOR KNOWLEDGE
-          MANAGMENT. WE CANNOT COPE WITH EXPONETIAL VOLUME
+          AI FOR KNOWLEDGE MANAGEMENT IS THE FUTURE OF PRODUCTIVITY & STRATEGIC
+          INTELLIGENCE
         </Text>
         <Text fontFamily="Inter" as="i" color="#afafaf">
           We exist to make your life easier, and get you rid of redundant, time

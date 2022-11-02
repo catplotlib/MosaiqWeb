@@ -38,7 +38,12 @@ const MenuIcon = () => (
 
 const MenuToggle = ({ toggle, isOpen }) => {
   return (
-    <Box transition="ease-in-out 300ms" display={{ base: "block", md: "none" }} ml="60%" onClick={toggle}>
+    <Box
+      transition="ease-in-out 300ms"
+      display={{ base: "block", md: "none" }}
+      ml="60%"
+      onClick={toggle}
+    >
       {isOpen ? <CloseIcon /> : <MenuIcon />}
     </Box>
   );
@@ -47,7 +52,7 @@ const MenuToggle = ({ toggle, isOpen }) => {
 const MenuItem = ({ children, isLast, to = "/", ...rest }) => {
   return (
     <Link to={to}>
-      <Text display="block" fontFamily="Inter" {...rest}>
+      <Text display="block" fontFamily="Inter" fontColor="#282C3E" {...rest}>
         {children}
       </Text>
     </Link>
@@ -58,21 +63,15 @@ const MenuLinks = ({ isOpen }) => {
   return (
     <Box
       display={{ base: isOpen ? "block" : "none", md: "block" }}
-      flexBasis={{ base: "100%", md: "auto" }}
+      flexBasis={{ base: "100%", md: "90%" }}
     >
-      <Stack
-        spacing={8}
-        align="center"
-        justify={["space-between", "flex-end", "flex-end"]}
-        direction={["column", "row", "row", "row"]}
-        pt={[4, 4, 0, 0]}
-      >
-        <MenuItem to="/About">About</MenuItem>
-        <MenuItem to="/Enterprise">Enterprise</MenuItem>
-        <MenuItem to="/">Get in Touch</MenuItem>
+      <Flex justifyContent="space-between">
+        <Flex gap="8" pt="1.5">
+          <MenuItem to="/About">About</MenuItem>
+          <MenuItem to="/Enterprise">Enterprise solutions </MenuItem>
+        </Flex>
         <MenuItem to="/signup" isLast>
           <Button
-            ml="1200%"
             size="sm"
             rounded="md"
             color="white"
@@ -84,7 +83,9 @@ const MenuLinks = ({ isOpen }) => {
             Sign Up
           </Button>
         </MenuItem>
-      </Stack>
+      </Flex>
+
+      {/* </Stack> */}
     </Box>
   );
 };
@@ -92,6 +93,7 @@ const MenuLinks = ({ isOpen }) => {
 const NavBarContainer = ({ children, ...props }) => {
   return (
     <Flex
+      position="fixed"
       as="nav"
       align="center"
       wrap="wrap"

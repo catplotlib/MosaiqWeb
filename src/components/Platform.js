@@ -16,7 +16,7 @@ function Platform() {
       >
         <Flex flexDirection="column" width={{ md: "30%" }}>
           <Image w="9%" src={tech} height="30px" mb="4"></Image>
-          <Text fontFamily="inter" ml="1" fontSize="xl" fontWeight="700">
+          <Text fontFamily="inter" ml="1" fontSize="2xl" fontWeight="900">
             ACCUMULATE KNOWLEDGE
           </Text>
           <Text fontFamily="inter" ml="1" textAlign="justify">

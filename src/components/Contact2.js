@@ -10,7 +10,11 @@ import "../styles/hero.css";
 function Contact2() {
   return (
     <div className="hero">
-      <Flex mt="6" height={{ md: "60vh", base: "82vh" }}>
+      <Flex
+        mt="6"
+        justifyContent="center"
+        height={{ md: "100vh", base: "82vh" }}
+      >
         <Flex
           mt={{ base: "24", md: "12" }}
           flexDirection="column"
@@ -18,9 +22,9 @@ function Contact2() {
           gap="1"
         >
           <Text
-            fontSize="5xl"
+            fontSize={{md:"5xl", base:"4xl"}}
             textAlign="center"
-            fontWeight="700"
+            fontWeight="900"
             fontFamily="Inter"
           >
             GET IN TOUCH
@@ -32,7 +36,12 @@ function Contact2() {
             alignItems="center"
             gap="1"
           >
-            <Text w={{ md: "60%" }} p="4" textAlign="center" color="grey">
+            <Text
+              w={{ md: "40%" }}
+              p="4"
+              textAlign="center"
+              color="rgba(255,255,255,0.75)"
+            >
               We are on a mission to apply best in class NLP technology to make
               the life of knowledge workers easier, more productive and
               stimulating. If you feel like that is interesting for you - in any

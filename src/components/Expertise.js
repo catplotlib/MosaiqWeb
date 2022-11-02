@@ -3,18 +3,18 @@ import { Text, Flex, Image, Box } from "@chakra-ui/react";
 function Expertise() {
   return (
     <Flex
-      height={{ md: "70vh", base: "110vh" }}
-      ml={{ base: "4", md: "24" }}
-      mr={{ base: "4", md: "24" }}
-      mt="20"
+      height={{ md: "80vh", base: "150vh" }}
+      ml={{ base: "4", md: "44" }}
+      mr={{ base: "4", md: "44" }}
       gap="12"
       direction="column"
     >
       <Text
+        mt="44"
         fontFamily="Inter"
-        fontSize="4xl"
-        fontWeight="800"
-        w={{ md: "50%" }}
+        fontSize="5xl"
+        fontWeight="900"
+        w={{ md: "70%" }}
         lineHeight="1.2"
       >
         EXPERTISE IN KNOWLEDGE
@@ -23,8 +23,12 @@ function Expertise() {
       </Text>
       <Flex flexDirection={{ base: "column", md: "row" }} gap="12">
         {/* first */}
-        <Box flexDirection="column" w={{ md: "20%" }}>
-          <Text fontSize="2xl" fontWeight="800" lineHeight="1.2" mb="4">
+        <Box
+          flexDirection="column"
+          w={{ md: "17%" }}
+          mt={{ base: "20", md: "0" }}
+        >
+          <Text fontSize="2xl" fontWeight="900" lineHeight="1.2" mb="4">
             AUDIT & CONSULTING
           </Text>
           <Text fontFamily="Inter" as="i" color="#afafaf">
@@ -32,13 +36,15 @@ function Expertise() {
             workflows and knowledge management practices
           </Text>
           <br></br>
+          <br></br>
+
           <Text fontFamily="Inter" as="i" color="#afafaf">
             This includes processes, behavioral and technical aspects.
           </Text>
         </Box>
         {/* second */}
-        <Box flexDirection="column" w={{ md: "20%" }}>
-          <Text fontSize="2xl" fontWeight="800" lineHeight="1.2" mb="4">
+        <Box flexDirection="column" w={{ md: "17%" }}>
+          <Text fontSize="2xl" fontWeight="900" lineHeight="1.2" mb="4">
             CUSTOM NLP SOLUTIONS
           </Text>
           <Text fontFamily="Inter" as="i" color="#afafaf">
@@ -48,7 +54,7 @@ function Expertise() {
         </Box>
         {/* third */}
         <Box flexDirection="column" w={{ md: "20%" }}>
-          <Text fontSize="2xl" fontWeight="800" lineHeight="1.2" mb="4">
+          <Text fontSize="2xl" fontWeight="900" lineHeight="1.2" mb="4">
             KNOWLEDGE GRAPH SERVICE
           </Text>
           <Text fontFamily="Inter" as="i" color="#afafaf">

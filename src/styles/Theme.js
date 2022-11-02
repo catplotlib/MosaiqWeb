@@ -19,7 +19,7 @@ export const Theme = extendTheme({
   styles: {
     global: () => ({
       body: {
-        bg:"linear-gradient(180deg, #030303 20%, #242838 100%)",
+        bg:"black",
       },
       colors: {
         primary: {
