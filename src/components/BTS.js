@@ -24,7 +24,7 @@ function BTS() {
       <Flex
         flexDirection={{ base: "column", md: "row" }}
         gap={{ base: "12", md: "20" }}
-        mt="8"
+        mt="2.8rem"
       >
         <Flex flexDirection="column" width={{ md: "33%" }} gap="4">
           <IoHardwareChipSharp style={{ fontSize: "32px" }} />

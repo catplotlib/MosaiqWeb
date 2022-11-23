@@ -21,13 +21,13 @@ function Hero() {
     <div className="hero">
       <Flex justifyContent="center" height={{ md: "100vh", base: "82vh" }}>
         <Flex
-          mt={{ base: "24", md: "56" }}
+          mt={{ base: "36", md: "56" }}
           flexDirection="column"
           alignItems="center"
           gap="2"
         >
           <Text
-            fontSize="5xl"
+            fontSize={{md:"5xl",base: "4xl"}}
             textAlign="center"
             fontWeight="900"
             fontFamily="Inter"

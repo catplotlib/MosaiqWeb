@@ -10,7 +10,8 @@
   .body {
     background: url("../assets/G.svg") no-repeat center center;
     background-size: cover;
-    background-position-y: -2rem;
+    background-position-y: 2rem;
+
   }
   .body2 {
     background: url("../assets/bg2.svg") no-repeat center center;
@@ -35,7 +36,8 @@
   .body {
     background: url("../assets/bgmob1.svg") no-repeat center center;
     background-size: cover;
-    background-position-y: 2rem;
+    background-position-y: 6rem;
+    border: none
   }
   .body2 {
     background: url("../assets/G.svg") no-repeat center center;

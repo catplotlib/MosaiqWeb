@@ -7,6 +7,8 @@ import tele from "../assets/tele.svg";
 import linkedin from "../assets/linkedin.svg";
 import instagram from "../assets/instagram.svg";
 import "../styles/hero.css";
+import { Link } from "react-router-dom";
+
 function Contact() {
   return (
     <div
@@ -60,10 +62,42 @@ function Contact() {
             rel="noreferrer noopener"
           >
             {" "}
-            <Button bg="white" color="black" w="48"    _hover={{ bg: "black", color: "white" }}>
+            <Button
+              bg="white"
+              color="black"
+              w="48"
+              _hover={{ bg: "black", color: "white" }}
+            >
               Book a meeting
             </Button>
           </a>
+          <Flex justify='space-between' w='48' mt='6'>
+            <Link to="/Privacy">
+              <Button
+                bg="white"
+                color="black"
+                w="80px"
+                h="6"
+                fontSize="10"
+                _hover={{ bg: "black", color: "white" }}
+              >
+                Privacy Policy
+              </Button>
+            </Link>
+            <Link to="/Terms">
+              <Button
+                bg="white"
+                color="black"
+                w="100px"
+                h="6"
+                
+                fontSize="10"
+                _hover={{ bg: "black", color: "white" }}
+              >
+                Terms of Service
+              </Button>
+            </Link>
+          </Flex>
           <Flex gap="12" mt="32" cursor="pointer">
             <a
               href="https://m.facebook.com/MosaiQLabs/"
