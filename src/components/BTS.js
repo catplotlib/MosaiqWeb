@@ -1,9 +1,11 @@
 import React from "react";
 import { Box, Text, Flex, Image } from "@chakra-ui/react";
-import tech from "../assets/Technology.svg";
-import toggle from "../assets/Toggle.svg";
+
 import data from "../assets/Data.svg";
-import trans from "../assets/trans.svg";
+
+import { IoHardwareChipSharp } from "react-icons/io5";
+import { GiFamilyTree } from "react-icons/gi";
+import { GiBrain } from "react-icons/gi";
 function BTS() {
   return (
     <Flex
@@ -24,8 +26,8 @@ function BTS() {
         gap={{ base: "12", md: "20" }}
         mt="8"
       >
-        <Flex flexDirection="column" width={{ md: "30%" }} gap="4">
-          <Image w="9%" src={tech} height="30px"></Image>
+        <Flex flexDirection="column" width={{ md: "33%" }} gap="4">
+          <IoHardwareChipSharp style={{ fontSize: "32px" }} />
           <Text
             fontFamily="inter"
             ml="1"
@@ -42,8 +44,8 @@ function BTS() {
             topics{" "}
           </Text>
         </Flex>
-        <Flex flexDirection="column" width={{ md: "36%" }} gap="4">
-          <Image w="9%" src={toggle} height="30px"></Image>
+        <Flex flexDirection="column" width={{ md: "33%" }} gap="4">
+          <GiFamilyTree style={{ fontSize: "32px", color: "white" }} />
           <Text
             fontFamily="inter"
             ml="1"
@@ -62,7 +64,7 @@ function BTS() {
           </Text>
         </Flex>
         <Flex flexDirection="column" width={{ md: "33%" }} gap="4">
-          <Image w="9%" src={data} height="30px"></Image>
+          <GiBrain style={{ fontSize: "32px", color: "white" }} />
           <Text
             fontFamily="inter"
             ml="1"

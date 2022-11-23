@@ -29,7 +29,7 @@ function Info() {
           </Text>
           <Text
             fontFamily="inter"
-            width={{ md: "60%" }}
+            width={{ md: "50%" }}
             mt="6"
             textAlign="justify"
             color="rgba(255,255,255, 0.75)"
@@ -60,7 +60,7 @@ function Info() {
               w={{ base: "100%", md: "50%" }}
               fontWeight="900"
             >
-              GET TO THE RIGHT DATA. FASTER.
+              GET TO THE RIGHT DATA FASTER
             </Text>
             <Text
               fontFamily="inter"
@@ -94,7 +94,7 @@ function Info() {
           </Text>
           <Text
             fontFamily="inter"
-            width={{ md: "70%" }}
+            width={{ md: "50%" }}
             mt="6"
             textAlign="justify"
             color="rgba(255,255,255, 0.75)"
@@ -104,7 +104,7 @@ function Info() {
             collaborate. A visual gateway to all relevant information in one
             place.
           </Text>
-          <Flex direction="column" gap="3" mt="3">
+          {/* <Flex direction="column" gap="3" mt="3">
             <Flex>
               <Image w="9%" src={toggle} height="30px"></Image>
               <Text>PDF</Text>
@@ -113,7 +113,7 @@ function Info() {
               <Image w="9%" src={toggle} height="30px"></Image>
               <Text>Tabs</Text>
             </Flex>
-          </Flex>
+          </Flex> */}
         </Flex>
         <Image src={Project} mt="-16" className="laptop-break"></Image>
       </Flex>

@@ -33,7 +33,7 @@ export const Theme = extendTheme({
           800: "#075C37",
           900: "#064C2E",
         },
-        Blue: "#282C3E",
+        blue: "#181E31",
         grey: "#282C3E",
       },
     }),

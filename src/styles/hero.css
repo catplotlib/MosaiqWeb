@@ -40,10 +40,13 @@
   .body2 {
     background: url("../assets/G.svg") no-repeat center center;
     background-size: cover;
+    background-position-y: -5rem;
+
   }
   .body3 {
     background: url("../assets/bgmob3.svg") no-repeat center center;
     background-size: cover;
+
   }
 
   /* .touch {

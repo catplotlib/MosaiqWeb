@@ -54,14 +54,47 @@ function Contact() {
               form - let’s connect!
             </Text>
           </Flex>
-          <Button bg="white" color="black" w="48">
-            Book a meeting
-          </Button>
+          <a
+            href="https://calendly.com/mosaiqlabs/intro-call-with-mosaiq-labs"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            {" "}
+            <Button bg="white" color="black" w="48"    _hover={{ bg: "black", color: "white" }}>
+              Book a meeting
+            </Button>
+          </a>
           <Flex gap="12" mt="32" cursor="pointer">
-            <Image src={fb} w="8" h="8"></Image>
-            <Image src={tele} w="8" h="8"></Image>
-            <Image src={linkedin} w="8" h="8"></Image>
-            <Image src={instagram} w="8" h="8"></Image>
+            <a
+              href="https://m.facebook.com/MosaiQLabs/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              {" "}
+              <Image src={fb} w="8" h="8"></Image>{" "}
+            </a>
+            <a
+              href="https://twitter.com/mosaiql?lang=en"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              {" "}
+              <Image src={tele} w="8" h="8"></Image>
+            </a>
+            <a
+              href="https://uk.linkedin.com/company/mosaiq-labs"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <Image src={linkedin} w="8" h="8"></Image>
+            </a>
+            <a
+              href="https://www.instagram.com/mosaiqlabs/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <Image src={instagram} w="8" h="8"></Image>
+            </a>
           </Flex>
         </Flex>
       </Flex>
