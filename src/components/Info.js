@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, Flex, Image } from "@chakra-ui/react";
+import { Text, Flex, Image,Button } from "@chakra-ui/react";
 import ms from "../assets/ms.svg";
 import viewer from "../assets/Viewer.png";
 import Project from "../assets/Project.svg";
@@ -49,7 +49,12 @@ function Info() {
         mb={{ md: "36" }}
         justifyContent="center"
       >
-        <Image src={viewer} mt="-16" className="laptop-break" height="22rem"></Image>
+        <Image
+          src={viewer}
+          mt="-16"
+          className="laptop-break"
+          height="22rem"
+        ></Image>
         <Flex flexDirection="column">
           <Image src={viewer} className="mobile-break" mb="16" mt="16" />
           <Flex ml={{ md: "30%", base: "0%" }} direction="column">
@@ -104,16 +109,17 @@ function Info() {
             collaborate. A visual gateway to all relevant information in one
             place.
           </Text>
-          {/* <Flex direction="column" gap="3" mt="3">
-            <Flex>
-              <Image w="9%" src={toggle} height="30px"></Image>
-              <Text>PDF</Text>
-            </Flex>
-            <Flex>
-              <Image w="9%" src={toggle} height="30px"></Image>
-              <Text>Tabs</Text>
-            </Flex>
-          </Flex> */}
+          <Flex direction="column" gap="3" mt="8">
+            <Button
+              bg="white"
+              color="black"
+              w="36"
+              h="12"
+              _hover={{ bg: "black", color: "white" }}
+            >
+              Watch Demo
+            </Button>
+          </Flex>
         </Flex>
         <Image src={Project} mt="-16" className="laptop-break"></Image>
       </Flex>

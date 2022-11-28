@@ -71,33 +71,7 @@ function Contact() {
               Book a meeting
             </Button>
           </a>
-          <Flex justify='space-between' w='48' mt='6'>
-            <Link to="/Privacy">
-              <Button
-                bg="white"
-                color="black"
-                w="80px"
-                h="6"
-                fontSize="10"
-                _hover={{ bg: "black", color: "white" }}
-              >
-                Privacy Policy
-              </Button>
-            </Link>
-            <Link to="/Terms">
-              <Button
-                bg="white"
-                color="black"
-                w="100px"
-                h="6"
-                
-                fontSize="10"
-                _hover={{ bg: "black", color: "white" }}
-              >
-                Terms of Service
-              </Button>
-            </Link>
-          </Flex>
+
           <Flex gap="12" mt="32" cursor="pointer">
             <a
               href="https://m.facebook.com/MosaiQLabs/"
@@ -129,6 +103,33 @@ function Contact() {
             >
               <Image src={instagram} w="8" h="8"></Image>
             </a>
+          </Flex>
+          <Flex justify="space-between" w="56" mt="6">
+            <Link to="/Privacy">
+              <Button
+                bg="transparent"
+                color="white"
+                border='2px solid white'
+                w="80px"
+                h="6"
+                fontSize="10"
+             
+              >
+                Privacy Policy
+              </Button>
+            </Link>
+            <Link to="/Terms">
+              <Button
+                bg="transparent"
+                color="white"
+                border='2px solid white'
+                w="100px"
+                h="6"
+                fontSize="10"
+              >
+                Terms of Service
+              </Button>
+            </Link>
           </Flex>
         </Flex>
       </Flex>

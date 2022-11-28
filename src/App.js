@@ -5,12 +5,14 @@ import About from "./Pages/About";
 import Enterprise from "./Pages/Enterprise";
 import Privacy from "./Pages/Privacy";
 import Terms from "./Pages/Terms";
+import ScrollToTop from "./helpers/ScrollToTop";
 
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 function App() {
   return (
     <>
       <BrowserRouter>
+      <ScrollToTop />
         <Header />
         <Routes>
           <Route path="/" exact element={<Main />} />

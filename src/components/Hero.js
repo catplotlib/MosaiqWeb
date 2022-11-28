@@ -27,12 +27,12 @@ function Hero() {
           gap="2"
         >
           <Text
-            fontSize={{md:"5xl",base: "4xl"}}
+            fontSize={{ md: "5xl", base: "4xl" }}
             textAlign="center"
             fontWeight="900"
             fontFamily="Inter"
           >
-            SAY GOODBYE TO
+            GOODBYE TO
             <br class="mobile-break" /> INFORMATION CHAOS
           </Text>
 
@@ -43,9 +43,9 @@ function Hero() {
             alignItems="center"
             gap="2"
           >
-            <Text fontSize="xl" fontWeight="700" fontFamily="Inter">
+            {/* <Text fontSize="xl" fontWeight="700" fontFamily="Inter">
               Meet your knowledge assistant
-            </Text>
+            </Text> */}
 
             <Text
               fontSize="16"
@@ -55,10 +55,10 @@ function Hero() {
               textAlign="center"
               color="rgba(255,255,255, 0.75)"
             >
-              Do you have 27 tabs open? Do you get lost entranched in overlaping
-              documents? Do you need ages to find existing knowledge? {""}MosaiQ{" "}
-              removes the friction of your knowledge workflow. Information
-              volume becomes your ally.
+              Do you have 28 tabs open? Do you often look for information you
+              previously saw? Do you feel overwhelmed by all this volume? MosaiQ
+              removes the friction from your workflow. Meet your knowledge
+              assistant
             </Text>
           </Flex>
           <a
@@ -91,7 +91,7 @@ function Hero() {
         </Text>
         <Flex
           flexDirection={{ base: "column", md: "row" }}
-          gap={{ base: "12", md: "40" }}
+          gap={{ base: "12", md: "36" }}
           mt="8"
         >
           <Flex flexDirection="column" width={{ md: "33%" }} gap="3">
@@ -112,7 +112,7 @@ function Hero() {
           </Flex>
           <Flex
             flexDirection="column"
-            width={{ md: "33%" }}
+            width={{ md: "37%" }}
             bg="black"
             height={{ md: "20rem" }}
             gap="3"
