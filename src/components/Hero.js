@@ -32,7 +32,7 @@ function Hero() {
             fontWeight="900"
             fontFamily="Inter"
           >
-            GOODBYE TO
+            GOODBYE
             <br class="mobile-break" /> INFORMATION CHAOS
           </Text>
 
