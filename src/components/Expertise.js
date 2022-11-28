@@ -21,7 +21,11 @@ function Expertise() {
         <br />
         MANAGMENT & AI/NLP SOLUTIONS
       </Text>
-      <Flex flexDirection={{ base: "column", md: "row" }} gap="24" w={{md:'1260px'}}>
+      <Flex
+        flexDirection={{ base: "column", md: "row" }}
+        gap="24"
+        w={{ md: "1260px" }}
+      >
         {/* first */}
         <Box
           flexDirection="column"
@@ -31,15 +35,10 @@ function Expertise() {
           <Text fontSize="2xl" fontWeight="900" lineHeight="1.2" mb="4">
             AUDIT & CONSULTING
           </Text>
-          <Text fontFamily="Inter"  color="#afafaf">
-            We audit, analyze and propose solutions to your information
-            workflows and knowledge management practices
-          </Text>
-          <br></br>
-          <br></br>
-
-          <Text fontFamily="Inter"  color="#afafaf">
-            This includes processes, behavioral and technical aspects.
+          <Text fontFamily="Inter" color="#afafaf">
+            We audit, analyze and propose solutions to imporove your information
+            workflows and knowledge management practices. This includes
+            processes, behavioral and technical aspects.
           </Text>
         </Box>
         {/* second */}
@@ -47,9 +46,9 @@ function Expertise() {
           <Text fontSize="2xl" fontWeight="900" lineHeight="1.2" mb="4">
             CUSTOM NLP SOLUTIONS
           </Text>
-          <Text fontFamily="Inter"  color="#afafaf">
-            We help you build the right language technology solutions in a
-            viable, scalable and affordable way.
+          <Text fontFamily="Inter" color="#afafaf">
+            We help you build and implement the right language technology
+            solutions in a viable, scalable and affordable way.
           </Text>
         </Box>
         {/* third */}
@@ -57,11 +56,12 @@ function Expertise() {
           <Text fontSize="2xl" fontWeight="900" lineHeight="1.2" mb="4">
             KNOWLEDGE GRAPH SERVICE
           </Text>
-          <Text fontFamily="Inter"  color="#afafaf">
-            We build you a new way to capture and leverage all your data and
-            interact with it in plain language. This helps capture internal,
-            external data as well as tacit knowledge. A knowledge hub for your
-            enterprise where employees can interact with plain language.
+          <Text fontFamily="Inter" color="#afafaf">
+            We help you build you a new way to capture and leverage all your
+            data and interact with it in plain language. This helps capture
+            internal, external data as well as tacit knowledge; making it
+            accessible to any company member in plain language. A smart
+            knowledge hub for your enterprise.
           </Text>
         </Box>
       </Flex>

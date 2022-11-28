@@ -27,7 +27,7 @@ function Contact() {
           mt={{ base: "24", md: "12" }}
           flexDirection="column"
           alignItems="center"
-          gap="1"
+          // gap="1"
         >
           <Text
             fontSize="5xl"
@@ -49,6 +49,7 @@ function Contact() {
               p="4"
               textAlign="center"
               color="rgba(255,255,255,0.75)"
+              mt='-4'
             >
               We are on a mission to apply best in class NLP technology to make
               the life of knowledge workers easier, more productive and
@@ -63,6 +64,7 @@ function Contact() {
           >
             {" "}
             <Button
+            mt='8'
               bg="white"
               color="black"
               w="48"

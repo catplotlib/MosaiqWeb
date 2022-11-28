@@ -35,12 +35,13 @@ function Impact() {
               color="black"
               mb="4"
               borderRadius="4"
+              textAlign="center"
             >
               $900B
             </Text>
           </Box>
           <Text fontFamily="Inter" color="#afafaf" w={{ md: "170px" }}>
-            The yearly cost of information overaoad in lowered employee
+            The yearly cost of information overload in lowered employee
             productivity and reduced innovation in the US alone{" "}
           </Text>
         </Box>
@@ -54,6 +55,7 @@ function Impact() {
               color="black"
               w={{ base: "50%", md: "83%" }}
               borderRadius="4"
+              textAlign="center"
               mb="4"
             >
               2.5 HOURS
@@ -61,8 +63,8 @@ function Impact() {
           </Box>
           <Text fontFamily="Inter" color="#afafaf">
             The average time spent by knowledge workers per day finding or
-            creating institutional knowledge. On a team of 3, it means that the
-            work of 1 is lost{" "}
+            recreating institutional knowledge. Out of a team of 3, this means
+            completely wasting the efforts of 1{" "}
           </Text>
         </Box>
         {/* third */}
@@ -76,12 +78,13 @@ function Impact() {
               w={{ base: "23%", md: "38%" }}
               mb="4"
               borderRadius="4"
+              textAlign="center"
             >
               25%
             </Text>
           </Box>
           <Text fontFamily="Inter" color="#afafaf">
-            Workers experience significant stress and poor health due to the
+            Of workers experience significant stress and poor health due to the
             volume of information they are required to process{" "}
           </Text>
         </Box>
@@ -93,15 +96,16 @@ function Impact() {
               fontWeight="900"
               bg="white"
               color="black"
-              w={{ base: "17%", md: "28%" }}
+              w={{ base: "17%", md: "32%" }}
               mb="4"
               borderRadius="4"
+              textAlign="center"
             >
               110
             </Text>
           </Box>
           <Text fontFamily="Inter" color="#afafaf">
-            SaaS tools used by organizations 2021. vs 8 only in 2015{" "}
+            Avg SaaS tools used by organizations 2021. vs only 8 in 2015{" "}
           </Text>
         </Box>
         {/* fifth*/}
@@ -115,12 +119,14 @@ function Impact() {
               w={{ base: "28%", md: "55%" }}
               mb="4"
               borderRadius="4"
+              textAlign="center"
             >
               90%+
             </Text>
           </Box>
           <Text fontFamily="Inter" color="#afafaf">
-            Information is unstructured and never analysed{" "}
+            Of the information we consume is unstructured and never analyzed &
+            re-used{" "}
           </Text>
         </Box>
       </Flex>
@@ -148,7 +154,7 @@ function Impact() {
         <Text fontFamily="Inter" color="#afafaf">
           As knowledge workers - our life consists in finding information,
           digesting and curating it, and using learnings and curated content to
-          make decisions, product content, documents, & more{" "}
+          make decisions, produce content, documents, & more{" "}
         </Text>
         <Text fontFamily="Inter" color="#afafaf">
           Our founders were doing this daily. From covering overlapping academic
@@ -156,8 +162,8 @@ function Impact() {
           was lost due to information overload.{" "}
         </Text>
         <Text fontFamily="Inter" color="#afafaf">
-          Information overload is only getting started. The volumes grows at an
-          exponential rate. Organization used to have thousands of data points
+          Information overload is only getting started. The volume grows at an
+          exponential rate. Organizations used to have thousands of data points
           to cover, they now have millions. Access to information is now easy.
           Curation is inefficient. Re-utilisation almost nonexistent.{" "}
         </Text>
@@ -166,14 +172,15 @@ function Impact() {
           problem. Note taking apps, storage spaces, communication channels,
           emails, knowledge hubs.. only help with organization, but not with
           volume. We are superficially more organized, in channels. Even the
-          most diligently organized people are losing days, every week. No
+          most diligently organized people are losing hours, every day. No
           amount of organization will solve volume, the real cause of the
           problem.{" "}
         </Text>
         <Text fontFamily="Inter" color="#afafaf">
-          The future is about understanding the text automatically and to
-          interact with knowledge in plain language, without technical
-          capabilities.{" "}
+          The future is about understanding the text automatically and
+          interacting with knowledge in plain language, without technical
+          capabilities. Information volume should be a competitive advantage,
+          not a burden{" "}
         </Text>
       </Flex>
     </Flex>

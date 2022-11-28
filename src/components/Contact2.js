@@ -35,13 +35,13 @@ function Contact2() {
             flexDirection="column"
             justifyContent="center"
             alignItems="center"
-            gap="1"
           >
             <Text
               w={{ md: "40%" }}
               p="4"
               textAlign="center"
               color="rgba(255,255,255,0.75)"
+              mt='-4'
             >
               We are on a mission to apply best in class NLP technology to make
               the life of knowledge workers easier, more productive and
@@ -57,6 +57,7 @@ function Contact2() {
             {" "}
             <Button
               bg="white"
+              mt='8'
               color="black"
               w="48"
               _hover={{ bg: "black", color: "white" }}

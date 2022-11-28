@@ -71,24 +71,6 @@ const MenuLinks = ({ isOpen }) => {
           <MenuItem to="/Enterprise">Enterprise solutions </MenuItem>
         </Flex>
         <Flex gap="8">
-          <MenuItem to="/signup">
-            <Button
-              size="sm"
-              rounded="md"
-              color="white"
-              bg="#282C3E"
-              _hover={{
-                bg: [
-                  "primary.100",
-                  "primary.100",
-                  "primary.600",
-                  "primary.600",
-                ],
-              }}
-            >
-              Sign Up
-            </Button>
-          </MenuItem>
           <MenuItem to="/signup" isLast>
             <Button
               size="sm"
@@ -106,6 +88,24 @@ const MenuLinks = ({ isOpen }) => {
               }}
             >
               Demo
+            </Button>
+          </MenuItem>
+          <MenuItem to="/signup">
+            <Button
+              size="sm"
+              rounded="md"
+              color="white"
+              bg="#282C3E"
+              _hover={{
+                bg: [
+                  "primary.100",
+                  "primary.100",
+                  "primary.600",
+                  "primary.600",
+                ],
+              }}
+            >
+              Sign Up
             </Button>
           </MenuItem>
         </Flex>
