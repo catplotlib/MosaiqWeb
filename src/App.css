@@ -1,3 +1,6 @@
+html{
+  cursor: pointer;
+}
 .App {
   text-align: center;
 }

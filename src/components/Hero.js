@@ -71,7 +71,10 @@ function Hero() {
               color="black"
               w="48"
               h="12"
-              _hover={{ bg: "black", color: "white" }}
+              _hover={{
+                transform: "scale(1.1)",
+                transition: "all 0.2s ease-in-out",
+              }}
             >
               Get Access
             </Button>

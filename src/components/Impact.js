@@ -1,5 +1,6 @@
 import React from "react";
 import { Text, Flex, Image, Box } from "@chakra-ui/react";
+import { CountUp } from "use-count-up";
 function Impact() {
   return (
     <Flex
@@ -37,7 +38,8 @@ function Impact() {
               borderRadius="4"
               textAlign="center"
             >
-              $900B
+              $
+              <CountUp isCounting end={900} duration={2} />B
             </Text>
           </Box>
           <Text fontFamily="Inter" color="#afafaf" w={{ md: "170px" }}>
@@ -58,7 +60,8 @@ function Impact() {
               textAlign="center"
               mb="4"
             >
-              2.5 HOURS
+              <CountUp isCounting end={2.5} duration={2} />
+              HOURS
             </Text>
           </Box>
           <Text fontFamily="Inter" color="#afafaf">
@@ -80,7 +83,9 @@ function Impact() {
               borderRadius="4"
               textAlign="center"
             >
-              25%
+              
+              <CountUp isCounting end={25} duration={2} />%
+
             </Text>
           </Box>
           <Text fontFamily="Inter" color="#afafaf">
@@ -101,7 +106,8 @@ function Impact() {
               borderRadius="4"
               textAlign="center"
             >
-              110
+              <CountUp isCounting end={110} duration={2} />
+              
             </Text>
           </Box>
           <Text fontFamily="Inter" color="#afafaf">
@@ -121,7 +127,7 @@ function Impact() {
               borderRadius="4"
               textAlign="center"
             >
-              90%+
+              <CountUp isCounting end={90} duration={2} />%+
             </Text>
           </Box>
           <Text fontFamily="Inter" color="#afafaf">

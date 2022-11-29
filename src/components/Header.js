@@ -52,7 +52,16 @@ const MenuToggle = ({ toggle, isOpen }) => {
 const MenuItem = ({ children, isLast, to = "/", ...rest }) => {
   return (
     <Link to={to}>
-      <Text display="block" fontFamily="Inter" fontColor="#282C3E" {...rest}>
+      <Text
+        display="block"
+        fontFamily="Inter"
+        fontColor="#282C3E"
+        {...rest}
+        _hover={{
+          transform: "scale(1.1)",
+          transition: "all 0.2s ease-in-out",
+        }}
+      >
         {children}
       </Text>
     </Link>
@@ -78,14 +87,6 @@ const MenuLinks = ({ isOpen }) => {
               color="#282C3E"
               bg="transparent"
               border="3px solid #282C3E"
-              _hover={{
-                bg: [
-                  "primary.100",
-                  "primary.100",
-                  "primary.600",
-                  "primary.600",
-                ],
-              }}
             >
               Demo
             </Button>
@@ -97,12 +98,8 @@ const MenuLinks = ({ isOpen }) => {
               color="white"
               bg="#282C3E"
               _hover={{
-                bg: [
-                  "primary.100",
-                  "primary.100",
-                  "primary.600",
-                  "primary.600",
-                ],
+                transform: "scale(1)",
+                transition: "all 0.2s ease-in-out",
               }}
             >
               Sign Up

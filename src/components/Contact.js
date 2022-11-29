@@ -49,7 +49,7 @@ function Contact() {
               p="4"
               textAlign="center"
               color="rgba(255,255,255,0.75)"
-              mt='-4'
+              mt="-4"
             >
               We are on a mission to apply best in class NLP technology to make
               the life of knowledge workers easier, more productive and
@@ -64,11 +64,14 @@ function Contact() {
           >
             {" "}
             <Button
-            mt='8'
+              mt="8"
               bg="white"
               color="black"
               w="48"
-              _hover={{ bg: "black", color: "white" }}
+              _hover={{
+                transform: "scale(1.1)",
+                transition: "all 0.2s ease-in-out",
+              }}
             >
               Book a meeting
             </Button>
@@ -81,7 +84,15 @@ function Contact() {
               rel="noreferrer noopener"
             >
               {" "}
-              <Image src={fb} w="8" h="8"></Image>{" "}
+              <Image
+                src={fb}
+                w="8"
+                h="8"
+                _hover={{
+                  transform: "scale(1.1)",
+                  transition: "all 0.2s ease-in-out",
+                }}
+              ></Image>{" "}
             </a>
             <a
               href="https://twitter.com/mosaiql?lang=en"
@@ -89,21 +100,45 @@ function Contact() {
               rel="noreferrer noopener"
             >
               {" "}
-              <Image src={tele} w="8" h="8"></Image>
+              <Image
+                src={tele}
+                w="8"
+                h="8"
+                _hover={{
+                  transform: "scale(1.1)",
+                  transition: "all 0.2s ease-in-out",
+                }}
+              ></Image>
             </a>
             <a
               href="https://uk.linkedin.com/company/mosaiq-labs"
               target="_blank"
               rel="noreferrer noopener"
             >
-              <Image src={linkedin} w="8" h="8"></Image>
+              <Image
+                src={linkedin}
+                w="8"
+                h="8"
+                _hover={{
+                  transform: "scale(1.1)",
+                  transition: "all 0.2s ease-in-out",
+                }}
+              ></Image>
             </a>
             <a
               href="https://www.instagram.com/mosaiqlabs/"
               target="_blank"
               rel="noreferrer noopener"
             >
-              <Image src={instagram} w="8" h="8"></Image>
+              <Image
+                src={instagram}
+                w="8"
+                h="8"
+                _hover={{
+                  transform: "scale(1.1)",
+                  transition: "all 0.2s ease-in-out",
+                }}
+              ></Image>
             </a>
           </Flex>
           <Flex justify="space-between" w="56" mt="6">
@@ -111,11 +146,10 @@ function Contact() {
               <Button
                 bg="transparent"
                 color="white"
-                border='2px solid white'
+                border="2px solid white"
                 w="80px"
                 h="6"
                 fontSize="10"
-             
               >
                 Privacy Policy
               </Button>
@@ -124,7 +158,7 @@ function Contact() {
               <Button
                 bg="transparent"
                 color="white"
-                border='2px solid white'
+                border="2px solid white"
                 w="100px"
                 h="6"
                 fontSize="10"

@@ -115,7 +115,10 @@ function Info() {
               color="black"
               w="36"
               h="12"
-              _hover={{ bg: "black", color: "white" }}
+              _hover={{
+                transform: "scale(1.1)",
+                transition: "all 0.2s ease-in-out",
+              }}
             >
               Watch Demo
             </Button>
