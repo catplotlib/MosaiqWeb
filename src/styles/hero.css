@@ -2,11 +2,7 @@
   .mobile-break {
     display: none;
   }
-  /* .hero {
-    background: url("../assets/BGWeb.png") no-repeat center center;
-    background-size: cover;
-    background-position-y: -2rem;
-  } */
+
   .body {
     background: url("../assets/G.svg") no-repeat center center;
     background-size: cover;
@@ -36,7 +32,7 @@
   .body {
     background: url("../assets/bgmob1.svg") no-repeat center center;
     background-size: cover;
-    background-position-y: 6rem;
+    background-position-y: 3rem;
     border: none
   }
   .body2 {

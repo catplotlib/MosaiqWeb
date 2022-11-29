@@ -19,7 +19,7 @@ import data from "../assets/Data.svg";
 function Hero() {
   return (
     <div className="hero">
-      <Flex justifyContent="center" height={{ md: "100vh", base: "82vh" }}>
+      <Flex justifyContent="center" height={{ md: "100vh", base: "100vh" }}>
         <Flex
           mt={{ base: "36", md: "56" }}
           flexDirection="column"
@@ -87,7 +87,7 @@ function Hero() {
         height={{ md: "70vh" }}
         ml={{ base: "4", md: "24" }}
         mr={{ base: "4", md: "24" }}
-        bg={{ base: "black", md: "transparent" }}
+        // bg={{ base: "black", md: "transparent" }}
       >
         <Text fontFamily="inter" fontSize="5xl" fontWeight="700">
           The Platform
