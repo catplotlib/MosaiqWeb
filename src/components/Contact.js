@@ -77,7 +77,7 @@ function Contact() {
             </Button>
           </a>
 
-          <Flex gap="12" mt="32" cursor="pointer">
+          <Flex gap="12" mt={{md:"32",base:'16'}} cursor="pointer">
             <a
               href="https://m.facebook.com/MosaiQLabs/"
               target="_blank"
@@ -141,7 +141,7 @@ function Contact() {
               ></Image>
             </a>
           </Flex>
-          <Flex justify="space-between" w="56" mt="6">
+          <Flex justify="space-between" w="56" mt={{md:"6",base:'4'}}>
             <Link to="/Privacy">
               <Button
                 bg="transparent"
