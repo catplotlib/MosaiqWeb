@@ -54,7 +54,7 @@ function Expertise() {
         {/* third */}
         <Box flexDirection="column" w={{ md: "20%" }}>
           <Text fontSize="2xl" fontWeight="900" lineHeight="1.2" mb="4">
-            KNOWLEDGE GRAPH SERVICE
+            KNOWLEDGE GRAPH AS A SERVICE
           </Text>
           <Text fontFamily="Inter" color="#afafaf">
             We help you build you a new way to capture and leverage all your
