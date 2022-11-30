@@ -19,12 +19,11 @@ function Contact() {
       }}
     >
       <Flex
-        mt="20%"
+        mt={{ base: "24", md: "500px", lg: "0" }}
         justifyContent="center"
-        height={{ md: "100vh", base: "82vh",lg:"110vh"}}
+        height={{ md: "100vh", base: "82vh", lg: "110vh" }}
       >
         <Flex
-          mt={{ base: "24", md: "12"}}
           flexDirection="column"
           alignItems="center"
           // gap="1"
@@ -77,7 +76,7 @@ function Contact() {
             </Button>
           </a>
 
-          <Flex gap="12" mt={{md:"32",base:'16'}} cursor="pointer">
+          <Flex gap="12" mt={{ md: "32", base: "16" }} cursor="pointer">
             <a
               href="https://m.facebook.com/MosaiQLabs/"
               target="_blank"
@@ -141,7 +140,7 @@ function Contact() {
               ></Image>
             </a>
           </Flex>
-          <Flex justify="space-between" w="56" mt={{md:"6",base:'4'}}>
+          <Flex justify="space-between" w="56" mt={{ md: "6", base: "4" }}>
             <Link to="/Privacy">
               <Button
                 bg="transparent"
