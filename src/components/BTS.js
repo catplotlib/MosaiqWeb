@@ -10,7 +10,7 @@ function BTS() {
   return (
     <Flex
       flexDirection="column"
-      height={{ md: "70vh" }}
+      height={{ md: "90vh" }}
       justifyContent="center"
       mt={{ base: "32", md: "0" }}
     >
