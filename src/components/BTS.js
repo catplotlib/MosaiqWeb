@@ -41,7 +41,7 @@ function BTS() {
             We use AI/NLP to automatically understand, extract & organize
             information by category. This serves users productivity but also
             enables to automatically construct knowledge around projects &
-            topics{" "}
+            topics.{" "}
           </Text>
         </Flex>
         <Flex flexDirection="column" width={{ md: "33%" }} gap="4">
@@ -60,7 +60,7 @@ function BTS() {
             structures the information in knowledge graphs. This helps connect
             the dots between concepts and datapoints contained in different
             environments. A google like infrastructure for all the knowledge
-            you’ve processed and consumed{" "}
+            you’ve processed and consumed.{" "}
           </Text>
         </Flex>
         <Flex flexDirection="column" width={{ md: "33%" }} gap="4">

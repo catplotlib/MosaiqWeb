@@ -1,3 +1,6 @@
+body{
+  background-color: #050607;
+}
 @media screen and (min-width: 600px) {
     .mobile-break {
       display: none;

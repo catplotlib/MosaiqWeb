@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, Flex, Image,Button } from "@chakra-ui/react";
+import { Text, Flex, Image, Button } from "@chakra-ui/react";
 import ms from "../assets/ms.svg";
 import viewer from "../assets/Viewer.png";
 import Project from "../assets/Project.svg";
@@ -7,7 +7,7 @@ import "../styles/hero.css";
 import toggle from "../assets/Toggle.svg";
 function Info() {
   return (
-    <>
+    <Flex flexDirection= "column" height={{ md: "1400px",lg:'130vh' }}>
       {/* first */}
       <Flex
         flexDirection={{ base: "column", md: "row" }}
@@ -126,7 +126,7 @@ function Info() {
         </Flex>
         <Image src={Project} mt="-16" className="laptop-break"></Image>
       </Flex>
-    </>
+    </Flex>
   );
 }
 

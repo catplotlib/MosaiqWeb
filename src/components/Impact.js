@@ -24,7 +24,7 @@ function Impact() {
       </Text>
       <Flex flexDirection={{ base: "column", md: "row" }} gap="12">
         {/* first */}
-        <Box flexDirection="column" w={{ md: "30%" }}>
+        <Box flexDirection="column" w={{ md: "180px" }}>
           {/* Make the white background fit the text */}
 
           <Box w="28">
@@ -111,7 +111,7 @@ function Impact() {
             </Text>
           </Box>
           <Text fontFamily="Inter" color="#afafaf">
-            Avg SaaS tools used by organizations 2021. vs only 8 in 2015{" "}
+            Avg SaaS tools used by organizations in 2021 vs only 8 in 2015{" "}
           </Text>
         </Box>
         {/* fifth*/}

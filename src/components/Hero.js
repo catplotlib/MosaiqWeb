@@ -19,7 +19,7 @@ import data from "../assets/Data.svg";
 function Hero() {
   return (
     <div className="hero">
-      <Flex justifyContent="center" height={{ md: "100vh", base: "100vh" }}>
+      <Flex justifyContent="center" height={{ md: "100vh",lg:'120vh'}}>
         <Flex
           mt={{ base: "36", md: "56" }}
           flexDirection="column"
@@ -50,15 +50,25 @@ function Hero() {
             <Text
               fontSize="16"
               lineHeight="1.2"
-              w={{ md: "47%" }}
+              w={{ md: "700px" }}
               p="4"
               textAlign="center"
               color="rgba(255,255,255, 0.75)"
             >
               Do you have 28 tabs open? Do you often look for information you
               previously saw? Do you feel overwhelmed by all this volume? MosaiQ
-              removes the friction from your workflow. Meet your knowledge
-              assistant
+              removes the friction from your workflow.
+              <Text
+                fontSize="16"
+                lineHeight="1.2"
+                mt='-16px'
+                p="4"
+                textAlign="center"
+                color="rgba(255,255,255, 0.75)"
+              >
+                {" "}
+                Meet your knowledge assistant
+              </Text>
             </Text>
           </Flex>
           <a
@@ -116,7 +126,7 @@ function Hero() {
           <Flex
             flexDirection="column"
             width={{ md: "37%" }}
-            bg="black"
+      
             height={{ md: "20rem" }}
             gap="3"
             mt="-1"
@@ -134,7 +144,7 @@ function Hero() {
               Access specific categories of information automatically extracted
               from the text, without having to go through documents. Want to see
               all tables and figures contained in 27 documents? Just press a
-              button - skip the overlap you already know{" "}
+              button - skip the overlap you already know.{" "}
             </Text>
           </Flex>
           <Flex flexDirection="column" width={{ md: "33%" }} gap="3" mt="-1">
