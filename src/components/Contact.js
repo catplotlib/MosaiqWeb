@@ -19,14 +19,13 @@ function Contact() {
       }}
     >
       <Flex
-        mt={{ base: "24", md: "500px", lg: "0" }}
+        mt={{ base: "24", md: "8vh", lg: "0" }}
         justifyContent="center"
         height={{ md: "100vh", base: "82vh", lg: "110vh" }}
       >
         <Flex
           flexDirection="column"
           alignItems="center"
-          // gap="1"
         >
           <Text
             fontSize="5xl"
